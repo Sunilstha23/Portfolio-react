@@ -109,24 +109,20 @@ img{
 
 /* ============== MEIA QUEIES (MEDIUM DEVICES) ========== */
 @media screen and (max-width: 1024px) {
-    .container{
-        width: var(--container-width-md);
-    }
-
-    section{
-        margin-top: 6rem;
+    .container .testimonial__container{
+        width: 60%;
     }
     
 }
 
 /* ============== MEIA QUEIES (SMALL DEVICES) ========== */
 @media screen and (max-width: 600px) {
-    .container{
-        width: var(--container-width-ms);
+    .container .testimonial__container{
+        width: var(--container-width-sm);
     }
 
-    section{
-        margin-top: 2rem;
+    .friend__review{
+        width: var(--container-width-sm);
     }
     
 }
