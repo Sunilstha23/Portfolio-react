@@ -67,9 +67,7 @@
 
 /* ============== MEIA QUEIES (MEDIUM DEVICES) ========== */
 @media screen and (max-width: 1024px) {
-    section{
-        height: 110vh !important;
-    }
+   
   .about__container{
       grid-template-columns: 1fr;
       gap: 0;
@@ -89,10 +87,7 @@
 
 /* ============== MEIA QUEIES (SMALL DEVICES) ========== */
 @media screen and (max-width: 600px) {
-    section{
-        height: 135vh !important;
-    }
-  
+
     .about__me{
         width: 65%;
         margin: 1.5rem auto 3rem;
