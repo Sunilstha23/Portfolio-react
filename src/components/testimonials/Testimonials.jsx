@@ -16,8 +16,8 @@ import 'swiper/css/scrollbar';
 
 const data = [{
   avatar: AVTR1,
-  name: 'Shrija Shreejan Shrestha',
-  review: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, repudiandae asperiores nam repellat aperiam laudantium impedit earum fugit at maxime iure provident, adipisci tempora ipsa esse, sapiente deleniti nostrum eos.',
+  name: 'Shrija Shrestha',
+  review: 'Sunil, is really good friend of mine. we worked as a team in final collage project(E-MedHouse, a Medical E-commerce Website Complaint with WCAG & ADA), through which i can say he is hardworking in nature and cooperative ',
 },
   {
   avatar: AVTR1,
