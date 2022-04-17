@@ -1,17 +1,23 @@
 import React from 'react'
-import AVTR1 from '../../assets/sunil.jpg'
+import AVTR1 from '../../assets/shrija.jpg'
+import AVTR2 from '../../assets/astha.jpg'
+
 import './testimonials.css'
 
 // import Swiper core and required modules
 import { Navigation, Pagination, Scrollbar, A11y } from 'swiper';
 
-import { Swiper, SwiperSlide } from 'swiper/react';
+import { Swiper, SwiperSlide } from "swiper/react/swiper-react";
+import "swiper/swiper-bundle.min.css";
 
 // Import Swiper styles
-import 'swiper/css';
-import 'swiper/css/navigation';
-import 'swiper/css/pagination';
-import 'swiper/css/scrollbar';
+// import 'swiper/css';
+// import 'swiper/modules/navigation/navigation.scss';
+// import 'swiper/modules/pagination/pagination.scss'
+// import 'swiper/css/navigation';
+// import 'swiper/css/pagination';
+// import 'swiper/modules/scrollbar/scrollbar.scss'
+// import 'swiper/css/scrollbar';
 
 
 const data = [{
@@ -20,9 +26,9 @@ const data = [{
   review: 'Sunil, is really good friend of mine. we worked as a team in final collage project(E-MedHouse, a Medical E-commerce Website Complaint with WCAG & ADA), through which i can say he is hardworking in nature and cooperative ',
 },
   {
-  avatar: AVTR1,
+  avatar: AVTR2,
   name: 'Astha Shrestha',
-  review: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, repudiandae asperiores nam repellat aperiam laudantium impedit earum fugit at maxime iure provident, adipisci tempora ipsa esse, sapiente deleniti nostrum eos.',
+  review: 'we really hang out together in different collage events, tech event, tech volunteering and collage projects, he is really friendly, have good managing skill and fun to work with',
   },
   {
   avatar: AVTR1,

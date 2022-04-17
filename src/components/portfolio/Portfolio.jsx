@@ -46,7 +46,7 @@ const Portfolio = () => {
                       </div>
                       <h3>{title}</h3>
                       <div className="portfolio__item-cta">
-                        <a href={github} target='_blank' rel="noreferrer" className='btn'>GitHub</a> 
+                        <a href={github} target='_blank' rel="noopener noreferrer" className='btn'>GitHub</a> 
                         <Modal title={title} description={description}/>
                       </div>
                     </article>

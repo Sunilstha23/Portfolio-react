@@ -27,19 +27,19 @@ const Contact = () => {
             <MdEmail className='contact__option-icon'/>
             <h4>Email</h4>
             <h5>explore.sunilshrestha@gmail.com</h5>
-            <a href="mailto:explore.sunilshrestha@gmail.com" target='_blank' rel="noreferrer">Send a message</a>
+            <a href="mailto:explore.sunilshrestha@gmail.com" target='_blank' rel="noopener noreferrer">Send a message</a>
           </article>
           <article className='contact__option'>
             <BsMessenger className='contact__option-icon'/>
             <h4>Messenger</h4>
             <h5>Sunil Shrestha</h5>
-            <a href="https://m.me/Sunilshrestha23/" target='_blank' rel="noreferrer">Send a message</a>
+            <a href="https://m.me/Sunilshrestha23/" target='_blank' rel="noopener noreferrer">Send a message</a>
           </article>
           <article className='contact__option'>
             <SiWhatsapp className='contact__option-icon'/>
             <h4>Whatsapp</h4>
             <h5>+9779825338425</h5>
-            <a href="https://wa.me/<+9779825338425>" target='_blank' rel="noreferrer">Send a message</a>
+            <a href="https://wa.me/<+9779825338425>" target='_blank' rel="noopener noreferrer">Send a message</a>
           </article>
 
         </div>
